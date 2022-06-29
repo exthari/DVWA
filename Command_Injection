@@ -1,0 +1,13 @@
+LOW
+
+8.8.8.8 && dir
+8.8.8.8 && cd C:\Users\srich\Desktop && type list.txt
+
+MEDIUM
+
+8.8.8.8 & dir
+8.8.8.8 & cd C:\Users\srich\Desktop & type list.txt
+
+HIGH
+
+8.8.8.8|dir
